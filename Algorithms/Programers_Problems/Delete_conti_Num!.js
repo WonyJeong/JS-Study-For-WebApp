@@ -7,7 +7,6 @@ function solution(arr)
   for(var i = 1; i<arr.length; i++){
     if(temp != arr[i])
       answer.push(arr[i]);
-   
     temp = arr[i];
   }
     console.log(answer);
@@ -22,7 +21,6 @@ function solution(arr)
 function bestSolution(arr){
     return arr.filter((val,index) => val != arr[index+1]);
 }
-
 
 const arr = [1,1,3,3,0,1,1];
 solution(arr)
