@@ -1,0 +1,20 @@
+.container {
+    border: 2px solid blue;
+    font-size: 2rem;
+    display: inline-flex;
+    flex-direction: row;
+}
+
+.container .item {
+    width: 6.25rem;
+    height: 6.25rem;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-right: 1rem;
+}
+
+/* .clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+} */
