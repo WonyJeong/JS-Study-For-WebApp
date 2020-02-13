@@ -24,7 +24,7 @@ function solution(priorities, location) {
 
 console.log(solution([2, 1, 3, 2]), 2);
 
-function solution(priorities, location) {
+function solution2(priorities, location) {
   var list = priorities.map((t, i) => ({
     my: i === location,
     val: t
