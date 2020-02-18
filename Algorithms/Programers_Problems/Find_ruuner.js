@@ -10,7 +10,6 @@ function solution(participant, completion) {
     return participant[participant.length - 1];
   }
 }
-
 const participant = ["a", "b", "b", "c"];
 const completion = ["a", "b", "c"];
 
