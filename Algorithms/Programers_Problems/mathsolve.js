@@ -14,6 +14,7 @@ const solution = answers => {
   var answer = [];
   for (var i = 0; i < 3; i++) {
     const temp = arr[i];
+    
     answer.push(scoring(arr[i], answers));
   }
 
@@ -23,3 +24,6 @@ const solution = answers => {
 //const answers = [1, 2, 3, 4, 5];
 const answers = [1, 3, 2, 4, 2];
 console.log(solution(answers));
+
+
+var temp = arr.map(value , maxValue) => value === maxValue ? value : maxValue )
